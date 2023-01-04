@@ -1,0 +1,17 @@
+composer:
+  last: Reinhardt
+  first: Johann Georg
+title: Missa Vita hominis brevis est
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2793-D-2
+    date: 1725–1733
+    rism: 212006794
+    url: https://digital.slub-dresden.de/id426604350
+    license: public domain
+    principal: true
+imslp:
