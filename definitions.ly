@@ -3,9 +3,16 @@
 #(define option-movement-title-format "number-title")
 #(define option-print-all-bar-numbers #t)
 \include "ees.ly"
+\include "ees_articulate.ly"
 
 
 tempoKyrie = \tempoMarkup "[Andante]"
+tempoGloria = \tempoMarkup "[Andante]"
+  tempoDomine = \tempoMarkup "Vivace"
+  tempoQuiTollis = \tempoMarkup "[Adagio]"
+  tempoSuscipe = \tempoMarkup "Largo"
+  tempoQuoniam = \tempoMarkup "Allegro"
+  tempoCumSancto = \tempoMarkup "[Allegro]"
 
 
 \include "notes/vl1.ly"
