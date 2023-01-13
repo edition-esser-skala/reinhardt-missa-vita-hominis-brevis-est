@@ -13,6 +13,12 @@ tempoGloria = \tempoMarkup "[Andante]"
   tempoSuscipe = \tempoMarkup "Largo"
   tempoQuoniam = \tempoMarkup "Allegro"
   tempoCumSancto = \tempoMarkup "[Allegro]"
+tempoCredo = \tempoMarkup "Andante"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoCrucifixus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoConfiteor = \tempoMarkup "Largo"
+  tempoEtExpecto = \tempoMarkup "Vivace"
 
 
 \include "notes/vl1.ly"

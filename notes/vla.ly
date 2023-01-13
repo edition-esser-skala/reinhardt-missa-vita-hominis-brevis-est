@@ -82,3 +82,62 @@ GloriaViola = {
     fis!8 g4 fis8 g4 r\fermata \bar "|." %88 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoCredo
+    R1*13 %13
+    r2 r8 e\fE gis e
+    a a, r4 r8 d fis d %15
+    g!8. g,16 g4 r c
+    g'4. fis8 g c, d d,
+    g2 r
+    R1*11 \noBreak %29
+    R1\fermata \bar "||" %30
+    \tempoEtIncarnatus a2\fE a8 a fis8. fis16 \noBreak
+    cis'4 gis ais h8 cis
+    dis4.( cis8) his4 his8 his
+    cis2 a!8 a a a
+    d!4 cis cis r %35
+    r cis cis dis \noBreak
+    cis4. cis8 cis2\fermata \bar "||"
+    \tempoCrucifixus R1*8 \noBreak %45
+    R1\fermata \bar "||"
+    \tempoEtResurrexit g8\fE g' fis d a' g fis d \noBreak
+    g, g' fis d a' g fis d
+    g g, r g' c c, r a'
+    g g, r fis' g c d d, %50
+    g4 r r2
+    R1*23 %74
+    r2 r4 h\fE %75
+    e, a8 a, d4 r8 g
+    cis,4 fis8 fis, h4 r
+    r g'8 f e d c4
+    g8 g' g d c?4 d
+    g,8 g' fis d a' g fis d %80
+    g4 r r2
+    R1*2
+    \tempoConfiteor R1*7 %90
+    r2 r4 \tempoEtExpecto h8\fE h
+    gis4 a!8 a, d2
+    r2 h8. h16 c!8 d
+    e4 d c d8 e
+    fis4 g c,2 %95
+    h4 r8 h' e,4 g8 e
+    a a, r a' d,4 fis8 d
+    g g, r4 r8 c h c
+    d2 g,4 r
+    r r8 \once \tieDashed g'~ g16 e g e c g' fis g %100
+    a8 a, r16 a' g a fis8 d g4~
+    g8 g g4 e2
+    r16 a g a fis8 a g16 fis g a fis4
+    e r r2
+    r r4 r8 \once \tieDashed a~ %105
+    a16 f a f d a' gis a h8 h, e gis
+    a4 r16 a g a fis8 g4 fis8
+    g4 r r r8 \once \tieDashed g~
+    g16 e g e c8 g' a g4 fis8
+    g4 r r2\fermata \bar "|." %110 finis
+  }
+}

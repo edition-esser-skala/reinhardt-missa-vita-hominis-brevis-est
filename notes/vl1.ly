@@ -118,3 +118,94 @@ GloriaViolinoI = {
     a8 h a4 g r\fermata \bar "|." %88 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoCredo
+    R1*7 %7
+    d'8\pE d h g r4 g'8 g
+    e2 dis4 h'8\fE a
+    g fis16 e dis8 dis e g fis4 %10
+    e r r2
+    r4 cis\pE r d!
+    d8 e d cis cis4. h8
+    h4 r r8 h\fE h e
+    c!4 r r8 a a d %15
+    h4 h8 h e4 e8 e
+    d4 d8 d h e a,4
+    g r r2
+    R1*6 %24
+    r2 r4 cis\pE %25
+    r2^\critnote dis4 r
+    r4 cis r his?
+    r e r fis
+    r d r a~ \noBreak
+    a gis a2\fermata \bar "||" %30
+    \tempoEtIncarnatus fis'2\fE fis8 fis gis8. gis16 \noBreak
+    eis?4 eis fisis gis~
+    gis fisis gis gis8 gis
+    eis?4 r r fis
+    gis2 a4 r %35
+    r gis a8 gis fis4~ \noBreak
+    fis eis fis2\fermata \bar "||"
+    \tempoCrucifixus R1*8 \noBreak %45
+    R1\fermata \bar "||"
+    \tempoEtResurrexit r8 g,\fE d'16( c) d8 c16 d, c'8 c16( h) c8 \noBreak
+    h4 r r2
+    r8 d d16 c d8 e16 d e8 fis16 e fis8
+    g fis16 e d8 c h a a8. g16 %50
+    g4 r r2
+    r8 d' d16 c d8 e16 d e8 fis16 e fis8
+    g4 r r2
+    R1
+    r2 r8 g,\fE d'16 c d8 %55
+    c16 d, c'8 c16 h c8 h4 r
+    R1
+    r2 r4 r8 e\pE
+    fis16 e fis8 fis8 a h16 a h8 h d,
+    e4 r r2 %60
+    r8 a,\fE a'16 g a8 g16 a, g'8 g16 fis g8
+    fis4 r r2
+    R1*3 %65
+    r2 r8 e\fE h'16 a h8
+    a16 h, a'8 a16 g a8 g g, d'!16 c d8
+    c16 d, c'8 c16 h c8 h4 r
+    R1*6 %74
+    r2 r4 fis'8\fE fis %75
+    g g e e fis fis r d
+    e16 cis e cis e cis e cis d8 d r4
+    r d8 d e e e4
+    d8 d g fis g g g fis
+    g g, d'16 c d8 c16 d, c'8 c16 h c8 %80
+    h4 r r2
+    R1*2
+    \tempoConfiteor fis'1~\pE
+    fis %85
+    d2 e
+    d fis
+    \once \tieDashed e~ e
+    d fis
+    g4. fis8 e4 d8 cis %90
+    cis2 h4 \tempoEtExpecto fis'8\fE fis
+    e4 e8 a fis4 fis
+    r2 d8. d16 e8 fis
+    g4 fis e fis8 g
+    a4 g8 fis e2 %95
+    dis4 r8 fis g4 g8 g
+    e e r e fis4 d8 d
+    h h r4 r8 g' g g
+    g4. fis8 g4 r8 \once \tieDashed d~
+    d16 h d h g d' c d e8 e, r16 e' d e %100
+    c c h c a4 h h~
+    h8 c4 h8 a16 e' d e c4
+    r r16 d c d h8 e4 dis8
+    e4 r r2
+    r4 r8 \once \tieDashed c~ c16 a c a f c' h c %105
+    d8 d, r \once \tieDashed d'~ d16 h d h gis e' d e
+    c4 r16 c h c a8 h a4
+    g8 \once \tieDashed d'~ d16 h d h g d' c d e8 d
+    e h c4. h8 a4
+    g r r2\fermata \bar "|." %110 finis
+  }
+}
