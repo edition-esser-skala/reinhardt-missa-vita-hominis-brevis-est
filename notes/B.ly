@@ -334,3 +334,136 @@ CredoBassoLyrics = \lyricmode {
   _ _ _
   men. %110 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*2
+    \mvTr d4\fE^\tuttiE e fis8[ e16 fis] d8[ g]
+    fis[ e16 fis] d8[ g] fis[ e16 d] a'8[ a,]
+    d4 d8 d h8. h16 h4 %5
+    r e8 e a,8. a16 d4
+    g a e4. e8
+    a,4 r r8 a' a e
+    g4. a16 g fis8 h, h'4~
+    h8 a16 g fis8([ gis)] a4 r %10
+    R1
+    r2 r4 d,8 d16 d
+    g8. g16 g4 c, cis8 cis
+    d8. d16 g,4 d'2 \noBreak
+    g, r\fermata \bar "||" %15
+    \tempoOsanna R1*4
+    r2 r4 \mvTr fis'8\pE^\soloE g %20
+    a a e fis g g fis e
+    fis2 h,
+    r r8 \mvTr d\fE^\tuttiE d d
+    e4. fis8 g h a g
+    fis[ e16 fis] d8[ c16 h] a2 %25
+    g8 g'([ fis)] e d16([ e fis g] a8[ d,])
+    g4 r r2
+    R1
+    r4 fis8 g a a e fis
+    g g, h c d2 \noBreak %30
+    g,1\fermata \bar "||"
+    \time 3/4 \tempoBenedictus \newSpacingSection R2.*7 %38
+    r4 \mvTr e'4.\pE^\solo e8
+    fis4 h,4. fis'8 %40
+    g([ fis)] e4 r
+    r r g
+    g8[ fis16 g] e8[ g a e]
+    fis[ e16 fis] d8[ fis g d]
+    e[ d16 e] c8[ e fis d] %45
+    g16[ fis g a] g[ fis g a] h4
+    a8 g d4. d8
+    g,2 r4
+    R2.
+    r4 g'4. g8 %50
+    a4 d,4. a'8
+    h([ a)] g4 r
+    r r h
+    h8[ a16 h] g8[ h c g]
+    a[ g16 a] fis8[ a h fis] %55
+    g[ fis16 g] e8[ g a e]
+    fis[ e16 fis] d8[ fis] d16[ e fis d]
+    g4. fis16[ g] e8[ g]
+    a4. g16[ a] fis8[ e]
+    dis[ h h h' h a] %60
+    g4 fis8 e h8. h16
+    e4 r r
+    r r h
+    e4. fis8 g16[ a h c]
+    d8[ d,] d[ fis16 e] d[ e fis g] %65
+    a8[ a,] a[ c16 h] a[ h c d]
+    e4. g16[ fis] e[ fis g a]
+    h4. c8[ h a]
+    g4. a16[ h] c8[( a])
+    g([ e)] h4. h8 %70
+    e2 r4
+    R2.*3
+    R2.\fermata \markOsannaDaCapo \bar "||" %75 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus, san -- _ %3
+  _ _ _ _
+  ctus, san -- ctus Do -- mi -- nus, %5
+  san -- ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth. Ple -- ni sunt
+  coe -- li et ter -- ra glo --
+  ri -- a tu -- a, %10
+
+  glo -- ri -- a,
+  glo -- ri -- a, glo -- ri -- a,
+  glo -- ri -- a tu --
+  a. %15
+
+  In ex -- %20
+  cel -- sis, in ex -- cel -- sis, in ex --
+  cel -- sis.
+  O -- san -- na
+  in ex -- cel -- sis, in ex --
+  cel -- _ _ %25
+  sis, in __ ex -- cel --
+  sis,
+
+  in ex -- cel -- sis, in ex --
+  cel -- sis, in ex -- cel -- %30
+  sis.
+
+  Be -- ne -- %39
+  di -- ctus, qui %40
+  ve -- nit
+  in
+  no -- _
+  _ _
+  _ _ %45
+  _ _ _
+  mi -- ne Do -- mi --
+  ni.
+
+  Be -- ne -- %50
+  di -- ctus, qui
+  ve -- nit
+  in
+  no -- _
+  _ _ %55
+  _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ %60
+  _ mi -- ne Do -- mi --
+  ni,
+  in
+  no -- _ _
+  _ _ _ %65
+  _ _ _
+  _ _ _
+  _ _
+  _ _ mi --
+  ne Do -- mi -- %70
+  ni. %71 finis
+}

@@ -209,3 +209,73 @@ CredoViolinoI = {
     g r r2\fermata \bar "|." %110 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoSanctus
+    g'4\fE a h8 a16 h g8 c
+    a d4 c8 h4 c
+    d8 c16 d h8 e d2~
+    d2. cis4
+    d a'8 a a8. a16 a4 %5
+    r g8 g g8. g16 fis4
+    g8 fis e a a4 gis
+    a r r2
+    R1
+    r2 r8 e e a, %10
+    c4. d16 c h8 e, e'4~
+    e8 d16 c d8 c16 h c8 c, c'4~
+    c8 h h4 e8 c g' g
+    fis4 g g fis \noBreak
+    g2 r\fermata \bar "||" %15
+    \tempoOsanna R1*8 %23
+    r2 r8 g,\fE g g
+    a4. h8 c e d c %25
+    h4. c8 d4. c8
+    h4 h8 c d d a h
+    c c g a h4. e8
+    a,4. g16 fis e8 e'4 d16 c
+    h8 h h a a2 \noBreak %30
+    g1\fermata \bar "||"
+    \time 3/4 \tempoBenedictus \newSpacingSection
+      r8 h\fE e16( dis) e8 fis h \noBreak
+    g g, g16 g' fis e dis4\trill
+    e8 g,16 h \once \slurDashed g'( fis) g8 a d
+    h h, h16 h' a g fis4\trill %35
+    g8 g, r h' a16( g) a8
+    r a g g, r g'
+    fis16( e) fis8 h, e4 dis8
+    e4 r r
+    R2. %40
+    r4 r8 h'\fE a16( g) a8
+    r a g g, r4
+    R2.*5 %47
+    r8 d'\fE g16 fis g8 a d
+    h4 r r
+    R2.*2 %51
+    r4 r r8 h\fE
+    a16( g) a8 r a g g,
+    R2.
+    r8 d\pE d4 r %55
+    r8 e e4 r
+    r8 fis fis4 r
+    r8 g g4 r
+    r8 a a4 r
+    r8 h h4 r %60
+    R2.
+    r8 h\fE e16( dis) e8 fis h
+    g4 r r
+    r8 g,\pE g4 r
+    r8 a a4 r %65
+    r8 c c4 r
+    r16 g' fis g e8 e, r4
+    r8 fis fis4 r
+    R2.*2 %70
+    h'8\fE h, r h' a16( g) a8
+    r a g g, r g'
+    \once \slurDashed fis16( e) fis8 h, e4 dis8
+    g fis fis4. e8
+    e2 r4\fermata \markOsannaDaCapo \bar "||" %75 finis
+  }
+}

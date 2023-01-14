@@ -342,3 +342,67 @@ CredoAltoLyrics = \lyricmode {
   _ _ _ _
   men. %110 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    r2 \mvTr d4\fE^\tuttiE e
+    fis8[ e16 fis] d[ e fis d] g4. fis8
+    fis4 g a8[ g16 a] fis8[ h]
+    a[ g16 a] fis8[ h] a[ g16 fis] e4
+    fis fis8 fis fis8. fis16 fis4 %5
+    r e8 g g8. g16^\critnote fis4
+    g8([ fis)] e4 e4. e8
+    e4 r r2
+    R1*2 %10
+    r8 a a e g4. a16 g
+    fis8 h, h'4. a16 g! fis4
+    g g8 g16 g g4 g8 g
+    fis8. fis16 g4 g( fis) \noBreak
+    g2 r\fermata \bar "||" %15
+    \tempoOsanna R1*2
+    r8 \mvTr d\pE^\soloE d d e4. fis8
+    g h a g fis4( e)
+    d r r2 %20
+    R1*4
+    r8 \mvTr d\fE^\tuttiE d d e4. fis8 %25
+    g h a g fis4( e)
+    d r r fis8 g
+    a a e fis g[ d] g4~
+    g8 fis a d, c c g' a
+    g2.( fis4) \noBreak %30
+    g1\fermata \bar "||"
+    \time 3/4 \tempoBenedictus \newSpacingSection R2.*43 %74
+    R2.\fermata \markOsannaDaCapo \bar "||" %75 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- _ _ ctus,
+  san -- ctus, san -- _
+  _ _ _ _
+  ctus, san -- ctus Do -- mi -- nus, %5
+  san -- ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+
+  Ple -- ni sunt coe -- li et %11
+  ter -- ra glo -- ri -- a tu --
+  a, glo -- ri -- a, glo -- ri -- a,
+  glo -- ri -- a tu --
+  a. %15
+
+  O -- san -- na in ex -- %18
+  cel -- sis, in ex -- cel --
+  sis. %20
+
+  O -- san -- na in ex -- %25
+  cel -- sis, in ex -- cel --
+  sis, in ex --
+  cel -- sis, in ex -- cel -- _
+  sis, in ex -- cel -- sis, in ex --
+  cel -- %30
+  sis. %31 finis
+}

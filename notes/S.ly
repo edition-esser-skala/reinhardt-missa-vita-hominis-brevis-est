@@ -337,21 +337,72 @@ CredoSopranoLyrics = \lyricmode {
   men. %110
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'4\fE^\tuttiE a h8[ a16 h] g8[ c]
+    a d4 c8 h4 c
+    d8[ c16 d] h8[ e] d2~
+    d2. cis4
+    d a8 a a8. a16 a4 %5
+    r g8 g a8. a16 a4
+    h c h4. a8
+    a4 r r2
+    R1
+    r2 r8 e' e a, %10
+    c4. d16 c h8 e, e'4~
+    e8 d16 c d8([ c16 h)] c4 c~
+    c8 h h4 a4. a16 a
+    a8. a16 h4 a2 \noBreak
+    g r\fermata \bar "||" %15
+    \tempoOsanna r8 \mvTr g\pE^\soloE g g a4. h8 \noBreak
+    c e d c h4( a)
+    g r r2
+    R1*5 %23
+    r2 r8 \mvTr g\fE^\tuttiE g g
+    a4. h8 c e d c %25
+    h4. c8 d4. c8
+    h4 h8 c d d a h
+    c c g a h4. e8
+    a,4. g16([ fis)] e8 e'4 d16[ c]
+    h8 h h a a2 \noBreak %30
+    g1\fermata \bar "||"
+    \time 3/4 \tempoBenedictus \newSpacingSection R2.*43 %74
+    R2.\fermata \markOsannaDaCapo \bar "||" %75 finis
+  }
+}
 
-% ## Sanctus
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, san -- _
+  _ _ ctus, san -- ctus,
+  san -- _ _
+  _
+  ctus, san -- ctus Do -- mi -- nus, %5
+  san -- ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+  Ple -- ni sunt %10
+  coe -- li et ter -- ra glo --
+  ri -- a tu -- a, glo --
+  ri -- a, glo -- ri -- a,
+  glo -- ri -- a tu --
+  a. %15
+  O -- san -- na in ex --
+  cel -- sis, in ex -- cel --
+  sis.
 
+  O -- san -- na %24
+  in ex -- cel -- sis, in ex -- %25
+  cel -- _ _ _
+  sis, in ex -- cel -- sis, in ex --
+  cel -- sis, in ex -- cel -- sis,
+  in ex -- cel -- _ _
+  _ sis, in ex -- cel -- %30
+  sis. %31 finis
+}
 
-% ## Benedictus
-
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

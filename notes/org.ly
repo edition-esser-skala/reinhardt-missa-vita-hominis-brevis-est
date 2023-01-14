@@ -552,3 +552,185 @@ CredoBassFigures = \figuremode {
   r4. <\t>8 <6 5>4 <4>8 <3>
   r1 %110 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef treble
+    \key g \major \time 4/4 \tempoSanctus
+    << {
+      g''4 a h8 a16 h g8 c
+      a d4 c8
+    } \\ {
+      \mvTr r2\fE-\tuttiE d,4 e
+      fis8 e16 fis d e fis d
+    } >> \clef "treble_8" g,4 a
+    \clef bass d, e fis8 e16 fis d8 g
+    d4 r r8 d a' a,
+    d4 d h2 %5
+    r4 e a, d!
+    g a e2
+    << {
+      r8 e' e a, c4. d16 c
+      h8 e, e'4. d16 c d8 c16 h
+      c8 h a h c4. h16 c %10
+    } \\ {
+      a,4 r r8 a' a e
+      g4. a16 g fis8 h, h'4~
+      h8 a16 g fis8 gis a4 r %10
+    } >>
+    \clef "treble_8" a2 e4 e8 e
+    h'8. a16 gis4 a \clef bass d,
+    g4. g,8 c4 cis
+    d g, d'2 \noBreak
+    g, r\fermata \bar "||" %15
+    \tempoOsanna \mvTr g'4\pE-\soloE e r8 d d d \noBreak
+    e4 fis g16 a h c d8 d,
+    g4 h, r8 a a a
+    h4 cis d16 e fis g a8 a,
+    d4 g fis8 d d c16 h %20
+    a2 g8 g' fis e
+    fis e fis fis, h2
+    << {
+      r8 g' g g a4. h8
+      c e d c h
+    } \\ {
+      \mvTr r2\fE-\tuttiE r8 d, d d
+      e4. fis8 g h a g
+    } >>
+    fis e16 fis d8 c16 h a2 %25
+    g8 g' fis e d16 e fis g a8 d,
+    g4 \clef treble << {
+      h'8 c d d a h
+      c c g a h4
+    } \\ {
+      r4 r fis8 g
+      a a e fis g[ d]
+    } >> \clef "treble_8" h c
+    d[ d] \clef bass fis, g a a e fis
+    g g, h c d2 \noBreak %30
+    g,1\fermata \bar "||"
+    \time 3/4 \tempoBenedictus \newSpacingSection
+      \mvTr e'4\fE-\soloE g dis \noBreak
+    e r h
+    e h8 e d!4
+    g, r8 g' d4 %35
+    g, g' d
+    dis e e
+    a g8 a h h,
+    e4 g\pE e~
+    e dis h %40
+    e e fis\fE
+    d! g h,\pE
+    c2 a4
+    d2 h4
+    c2 d4 %45
+    e4. d16 c h8 g
+    c4 d d,
+    g r8 g'\fE fis d
+    g,4 r8 g' fis d
+    g,4 g'\pE g~ %50
+    g fis d
+    g g, r
+    d'\fE dis e
+    r e\pE r8 e
+    fis4 r r8 d %55
+    e4 r r8 cis
+    d4 r r8 h
+    e4 r c8 h
+    a2 r4
+    h r dis %60
+    e a h8 h,
+    e4 r dis\fE
+    e r8 e dis h
+    e4 r e\pE
+    d! r d %65
+    a r a
+    e' r c
+    h2 dis4
+    e e a,^\critnote
+    e' h' h, %70
+    e r fis\fE
+    dis e r
+    a g8 e h' h,
+    e a h4 h,
+    e2 r4\fermata \markOsannaDaCapo \bar "||" %75 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r2. <7>8 <6>
+  q4 <5>8 <6> q2
+  r2. <_+>4
+  r2 <7 _+> %5
+  r2 <7>4 q
+  r2 <4>4 <_+>
+  r1
+  r
+  r %10
+  r
+  <4>8 <3> <6 5>4 <9>8 <8> <7>4
+  <4>8 <3>4. <6 5>4 <\t \t>
+  r2 <4>4 <3>
+  r1 %15
+  r2.. <6>8
+  q4 q2.
+  r4 <6>2 r8 <6>8
+  q4 q2 <_+>4
+  r2 <6>4. <\tllur \tllur>16 <8 6> %20
+  <5>4. <6>4 q8 q <6\\>
+  <5+ 4>4 <\t _+>2.
+  r1
+  r
+  <6>2 <5>4. <6>8 %25
+  r4 <6>8 q r4 <4>8 <7>
+  r1
+  r2. <6>4
+  <4>8 <3> <6>2 q8 q
+  r4 <6>8 <6 5> <4>4 <3> %30
+  r1
+  r4 <6> q
+  r2 <_+>4
+  <5>4. \once \bassFigureExtendersOn q8 <5>4
+  r2. %35
+  r2 <5>4
+  <\t>2.
+  <6>4 q8 <7> <4> <_+>
+  r4 <6>2
+  <2>4 <6> <_+> %40
+  r2 <6>4
+  r2 <6>4
+  r2.
+  r2 <6>4
+  r2. %45
+  r2 <6>4
+  q8 <5> <4>4 <3>
+  r2 <6>4
+  r2 q4
+  r2. %50
+  <2>4 <6>2
+  r2.
+  <5>4 <\t>2
+  r2 r8 <6>
+  q2. %55
+  r2 r8 q
+  r2.
+  r2 r8 q
+  r2.
+  <_+>2 <6>4 %60
+  r <6>8 <5> <_+>4
+  r2 <6>4
+  r2 q8 <_+>
+  r2.
+  r %65
+  r
+  r
+  <_+>2 <6>4
+  r2.
+  r4 <4> <_+> %70
+  r2 <5>4
+  q2.
+  <6>4 q <4>8 <_+>
+  r <6 5> <_+>2
+  r2. %75 finis
+}

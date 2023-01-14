@@ -6,6 +6,12 @@
 \include "ees_articulate.ly"
 
 
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna da capo"
+}
+
+
 tempoKyrie = \tempoMarkup "[Andante]"
 tempoGloria = \tempoMarkup "[Andante]"
   tempoDomine = \tempoMarkup "Vivace"
@@ -19,6 +25,9 @@ tempoCredo = \tempoMarkup "Andante"
   tempoEtResurrexit = \tempoMarkup "Allegro"
   tempoConfiteor = \tempoMarkup "Largo"
   tempoEtExpecto = \tempoMarkup "Vivace"
+tempoSanctus = \tempoMarkup "[Andante]"
+  tempoOsanna = \tempoMarkup "Osanna · Vivace"
+  tempoBenedictus = \tempoMarkup "Andante"
 
 
 \include "notes/vl1.ly"
