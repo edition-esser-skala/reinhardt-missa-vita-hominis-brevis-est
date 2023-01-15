@@ -388,3 +388,92 @@ SanctusTenoreLyrics = \lyricmode {
   cel -- sis, in ex -- cel -- %30
   sis. %31 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*4
+    r2 r4 \mvTr h8\pE^\soloE d %5
+    d4. c!16 h c8 c r c
+    gis4. e'8 c4 c
+    r c8 c c h h a
+    g4. fis8 fis2
+    e r4 \mvTr c'8\fE^\tuttiE c %10
+    h4 h8 h h a r e'
+    d4 h8 g a4 h \noBreak
+    e2 a,\fermata \bar "||"
+    \time 3/4 \tempoDona
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*10 %23
+    r4 \mvTr a4.\pE^\soloE h8
+    c! h c2 %25
+    h4 h e
+    e4. fis8 d cis
+    d h ais2
+    h2.
+    R2.*7 %36
+    r4 \mvTr h4.\fE^\tuttiE c8
+    h h a2
+    g4 d'4. d8
+    d d e2 %40
+    a,4 b4.\p a8
+    b a b2
+    a4 fis4.\f g8
+    a g a2
+    d4 d4. d8 %45
+    d d d2
+    c4 c8 a d e
+    d e d2
+    d4 d\p d
+    e8 e e2 %50
+    d4 r r
+    r g,4.\f a8
+    h a g2
+    g4 d'2
+    h4 c d %55
+    c2.
+    h\fermata \bar "|." %57 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus %5
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re, mi -- se --
+  re -- re no --
+  bis. A -- gnus %10
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+
+  Do -- na %24
+  no -- bis pa -- %25
+  cem, do -- na
+  no -- bis, do -- na
+  no -- bis pa --
+  cem.
+
+  Do -- na %37
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa -- %40
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na %45
+  no -- bis pa -- cem,
+  do -- na, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa -- %50
+  cem,
+  do -- na
+  no -- bis pa --
+  cem, do --
+  na no -- bis %55
+  pa --
+  cem. %57 finis
+}

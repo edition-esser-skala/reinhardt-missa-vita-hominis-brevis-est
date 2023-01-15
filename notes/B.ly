@@ -467,3 +467,80 @@ SanctusBassoLyrics = \lyricmode {
   ne Do -- mi -- %70
   ni. %71 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*9 %9
+    r2 r4 \mvTr c8\fE^\tuttiE c %10
+    g'4 gis8 gis a a, r a'
+    fis4 g8 e fis4 g \noBreak
+    e2 d\fermata \bar "||"
+    \time 3/4 \tempoDona
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*11 %24
+    r4 \mvTr e4.\pE^\soloE fis8 %25
+    g fis g2
+    fis4 fis ais
+    h8 h fis2
+    h,2.
+    R2.*7 %36
+    r4 \mvTr g'\fE^\tuttiE c,
+    g'8 g a2
+    g4 g4. g8
+    fis fis e2 %40
+    d4 g4.\p fis8
+    g fis g2
+    d4 d\f c8([ h!)]
+    a4. a8 a4
+    g g8([ a)] h([ c)] %45
+    d4. d8 c h
+    a4. fis8 g c
+    g' c, d2
+    g,4 g'\p g
+    cis,8 cis cis2 %50
+    d4 r r
+    r e4.\f fis8
+    g fis g4 e
+    h8 c d2
+    g,4 c h %55
+    c2.
+    g\fermata \bar "|." %57 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus %10
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+
+  Do -- na %25
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem.
+
+  Do -- na %37
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa -- %40
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na %45
+  no -- bis pa -- cem,
+  do -- na, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa -- %50
+  cem,
+  do -- na
+  no -- bis pa -- cem,
+  do -- na no --
+  bis, no -- bis %55
+  pa --
+  cem. %57 finis
+}

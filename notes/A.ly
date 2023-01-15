@@ -406,3 +406,93 @@ SanctusAltoLyrics = \lyricmode {
   cel -- %30
   sis. %31 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr d8\pE^\solo g g4. fis16 g
+    a8 a r a dis,4. h'8
+    g4 g r g8 g
+    g fis fis e d!4. cis8
+    cis2 h %5
+    R1*4
+    r2 r4 \mvTr g'8\fE^\tuttiE g %10
+    g4 e8 e e e r a
+    a4 g8 g fis4 d \noBreak
+    g2 fis\fermata \bar "||"
+    \time 3/4 \tempoDona
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*5 %18
+    r4 \mvTr g4.\pE^\solo h8
+    a d, g2 %20
+    fis4 fis4. g8
+    a4. h8 g a
+    fis g e2
+    d r4
+    R2.*12 %36
+    r4 \mvTr g\fE^\tuttiE g
+    g8 g g4( fis)
+    g g4. h8
+    a d, g2 %40
+    fis4 g\p d
+    d8 fis d4( g)
+    fis r r
+    r e4.\f fis8
+    g fis g2 %45
+    fis4 fis4. g8
+    a4. a8 g g
+    g g fis2
+    g4 g\p g
+    g8 g g2 %50
+    fis4 fis4.\f g8
+    a g g2
+    g4 g g
+    g8 g g4( fis)
+    g e d %55
+    e2.
+    d\fermata \bar "|." %57 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, mi -- se -- re -- re
+  no -- bis. %5
+
+  A -- gnus %10
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+
+  Do -- na %19
+  no -- bis pa -- %20
+  cem, do -- na
+  no -- bis, do -- na
+  no -- bis pa --
+  cem.
+
+  Do -- na %37
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa -- %40
+  cem, do -- na
+  no -- bis pa --
+  cem,
+  do -- na
+  no -- bis pa -- %45
+  cem, do -- na,
+  do -- na, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa -- %50
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, no -- bis %55
+  pa --
+  cem. %57 finis
+}

@@ -172,3 +172,45 @@ SanctusViola = {
     R2.\fermata \markOsannaDaCapo \bar "||" %75 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoAgnus
+    R1*9 %9
+    r2 r4 c8\fE c %10
+    g'4 gis a8 a, r a'
+    fis4 g8 e fis4 g \noBreak
+    e2 d\fermata \bar "||"
+    \time 3/4 \tempoDona
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*16 %29
+    h'4\fE h ais %30
+    h fis d
+    d'2 cis4
+    d d, r
+    d d'8 d, h cis
+    d g a4 a, %35
+    d d'8 c! h a
+    g4 g c,
+    g' a2
+    g4 g2
+    fis4 e2 %40
+    d4 r r
+    R2.
+    r4 d\f c8 h!
+    a2.
+    g4. a8 h c %45
+    d4. d8 c h
+    a4. fis8 g c
+    g' c, d2
+    g,4 r r
+    R2.*2 %51
+    r4 e'4.\f fis8
+    g fis g4 e
+    h8 c d2
+    g,4 c h %55
+    c2.
+    g\fermata \bar "|." %57 finis
+  }
+}

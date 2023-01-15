@@ -403,10 +403,79 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %31 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*9 %9
+    r2 r4 \mvTr e'8\fE^\tuttiE e %10
+    d4 d8 e c c r c
+    d4 d8 e d4. d8 \noBreak
+    d4( cis) d2\fermata \bar "||"
+    \time 3/4 \tempoDona
+      \once \override Staff.TimeSignature.style = #'single-digit
+      r4 \mvTr d4.\pE^\solo e8 \noBreak
+    d g, c2 %15
+    h4 h4. c8
+    d4. e8 c d
+    h a a2
+    g2.
+    R2.*17 %36
+    r4 \mvTr d'4.\fE^\tuttiE e8
+    d g, c2
+    h4 h8 c d4~
+    d8 d cis2 %40
+    d4 d4.\p d8
+    d d d2
+    d4 a4.\f h8
+    c! h c2
+    h4 h4. h8 %45
+    a g a4. h8
+    c4. d8 h c
+    h a a2
+    g4 h\p h
+    b8 b b4( a) %50
+    a a4.\f h8
+    c h c2
+    h4 h4. c8
+    d e a,2
+    g4 g g %55
+    g2.
+    g\fermata \bar "|." %57 finis
+  }
+}
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %10
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Do -- na
+  no -- bis pa -- %15
+  cem, do -- na
+  no -- bis, do -- na
+  no -- bis pa --
+  cem.
+
+  Do -- na %37
+  no -- bis pa --
+  cem, do -- na no --
+  bis pa -- %40
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na %45
+  no -- bis pa -- cem,
+  do -- na, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa -- %50
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, no -- bis %55
+  pa --
+  cem. %57 finis
+}

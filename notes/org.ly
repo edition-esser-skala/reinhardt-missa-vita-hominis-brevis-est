@@ -734,3 +734,128 @@ SanctusBassFigures = \figuremode {
   r <6 5> <_+>2
   r2. %75 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoAgnus
+    \mvTr g'2\pE-\soloE e
+    d h
+    e e
+    ais, h8 cis d e
+    fis4 fis, h2~ %5
+    h a!
+    e' a,
+    a dis
+    e8 fis g a h4 h,
+    e2 r4 \mvTr c8\fE-\tuttiE c %10
+    g'4 gis a8 a, r a'
+    fis4 g8 e fis4 g \noBreak
+    e2 d\fermata \bar "||"
+    \time 3/4 \tempoDona
+      \once \override Staff.TimeSignature.style = #'single-digit
+      \mvTr g4\pE-\soloE g8 a h c \noBreak
+    h4 a8 g fis d %15
+    g4 g, a
+    h h' a8 fis
+    g c d4 d,
+    g h g
+    fis e8 d cis a^\critnote %20
+    d4 d e
+    fis fis e8 cis
+    d g a4 a,
+    d d c!8 h
+    a a' a,2 %25
+    g4 g' e
+    ais,2.
+    h4 fis' fis,
+    h2.
+    h'4\fE h ais %30
+    h fis d
+    d'2 cis4
+    d d, r
+    d d'8 d, h cis
+    d g a4 a, %35
+    d d'8 c! h a
+    g4 g-\tuttiE c,
+    g' a2
+    g4 g2
+    fis4 e2 %40
+    d4 r r
+    R2.
+    r4 d\f c8 h!
+    a2.
+    g4. a8 h c %45
+    d4. d8 c h
+    a4. fis8 g c
+    g' c, d2
+    g,4 r r
+    R2.*2 %51
+    r4 e'4.\f fis8
+    g fis g4 e
+    h8 c d2
+    g,4 c h %55
+    c2.
+    g\fermata \bar "|." %57 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2 <7>4 <6\\>
+  r2 <_+>
+  r1
+  <7>8 <6>4 <5>8 <9> <\t> <6> <6\\ 5>
+  <5+ 4>4 <\t _+>2. %5
+  <6\\>2 <_!>
+  <_+>1
+  r2 <7>8 <6>4 <5>8
+  <9>8 <\t> <6> q <4>4 <_+>
+  r1 %10
+  r4 <6 5> <9>8 <8>4.
+  <6>2 q
+  <7>4 <6\\>2.
+  r2.
+  <6>2 <6 5>8 <\t \t> %15
+  r2 <6>4
+  q2 r8 q
+  r q <4>4 <3>
+  r <6>2
+  q2 <6 5>8 <\t \t> %20
+  r2 <6\\>4
+  <6>2 r8 q
+  r4 <4> <_+>
+  r2 <\t>8 <6>
+  <_!>2 r8 <6> %25
+  r2.
+  <6 5 _+>
+  r4 <5+ _+>2
+  r2.
+  r4 <4 2\+> <\t \t> %30
+  r <6 _!>2
+  r4 <4 2> <\t \t>
+  r2.
+  r4. <6>8 q q
+  r4 <_+>2 %35
+  <5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <5 3>2 <\t \t>8 <8>
+  r4 <7> <6>
+  r2.
+  <6>4 <6\\>2 %40
+  r2.
+  r
+  r2 <\t>8 <6>
+  <_!>2 r8 <6>
+  <5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %45
+  r2 <\t>8 <6>
+  r4. q8 r4
+  r8 <6 5> r2
+  r2.
+  r %50
+  r
+  r4 <6>4. <\t>8
+  r2 <5>8 <6>
+  q4 <4> <3>
+  r2 <6>4 %55
+  r2.
+  r %57 finis
+}

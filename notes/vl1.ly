@@ -279,3 +279,53 @@ SanctusViolinoI = {
     e2 r4\fermata \markOsannaDaCapo \bar "||" %75 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoAgnus
+    d'2.\pE cis4
+    d2 fis
+    e1~
+    e4 fis fis2~
+    fis d %5
+    gis a4 e~
+    e2 e~
+    e fis~
+    fis4 e2 dis4
+    e r r g8\fE g %10
+    g4 h8 h e, e r a
+    a4 g8 g a4 h \noBreak
+    g2 fis\fermata \bar "||"
+    \time 3/4 \tempoDona
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*17 %30
+    r4 a4.\fE h8
+    a d, g2
+    fis4 fis4. g8
+    a4. h8 g a
+    fis g e2 %35
+    d2.
+    r4 d4. e8
+    d g, c2
+    h4 h8 c d4~
+    d8 d cis2 %40
+    d4 r r
+    R2.
+    r4 a4.\f h8
+    c! h c2
+    h4 h4. h8 %45
+    a g a4. h8
+    c4. d8 h c
+    h a a2
+    g4 r r
+    R2. %50
+    r4 a4.\f h8
+    c h c2
+    h4 h4. c8
+    d e a,2
+    g4 e' d %55
+    e2.
+    d\fermata \bar "|." %57 finis
+  }
+}
